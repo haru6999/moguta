@@ -1,0 +1,70 @@
+*{
+  margin:0 auto;
+  color: #1a1a1a;
+}
+
+header{
+  height:70px;
+  background-color: #ffd753;
+  position: fixed;
+  width: 100%;
+  border-bottom: 1px solid #adadad;
+}
+
+header p{
+  float:left;
+  line-height: 70px;
+  /*width: 100%;
+  text-align: center;*/
+
+}
+
+header i{
+  float:right;
+}
+
+.contents{
+  padding-top: 70px;
+  padding-bottom: 40px;
+  height: auto;
+  height: 100%;
+}
+
+.memo{
+  height:100px;
+  border-bottom: 1px solid #f2f2f2;
+}
+
+.memo img{
+  width: 80px;
+  height:80px;
+  padding: 10px;
+  float:left;
+}
+
+.namedate{
+  float:left;
+  margin-top: 20px
+}
+
+.namedate p{
+  margin-bottom: 5px;
+}
+
+footer{
+  height:40px;
+  background-color: #ffd753;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  border-top: 1px solid #adadad;
+}
+
+footer p{
+  float:left;
+  line-height: 40px;
+}
+
+footer i{
+  float:right;
+}
