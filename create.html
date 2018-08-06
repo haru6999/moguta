@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <html lang="ja">
+    <title>moguta/create</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <a class="createLeft">キャンセル</a>
+      <p class="createCenter">新規作成</p>
+      <a class="createRight">保存</a>
+    </header>
+    <form action="" method="post" class="create contents">
+       <p><label>食事したお店<br><input type="search" name="shopName" placeholder=""></label></p>
+       <p><label>食事した日時<br><input type="datetime-local" name="dateTime" placeholder="(例)2018年7月20日(金)"></label></p>
+       <p><label>住所<br><input type="text" name="address" placeholder=""></label></p>
+       <p><label>最寄り駅<br><input type="text" name="station" placeholder="(例)名古屋駅"></label></p>
+       <p>写真<br><img src="https://imgfp.hotp.jp/IMGH/33/60/P030143360/P030143360_238.jpg" class="createImage"></p>
+       <div class="radio02">
+          <input type="radio" name="radio02" class="radio02-input" id="radio02-01">
+          <label for="radio02-01">1</label>
+          <input type="radio" name="radio02" class="radio02-input" id="radio02-02">
+          <label for="radio02-02">2</label>
+          <input type="radio" name="radio02" class="radio02-input" id="radio02-03">
+          <label for="radio02-03">3</label>
+          <input type="radio" name="radio02" class="radio02-input" id="radio02-04">
+          <label for="radio02-04">4</label>
+          <input type="radio" name="radio02" class="radio02-input" id="radio02-05">
+          <label for="radio02-05">5</label>
+       </div>
+       <p>メモ<br><textarea></textarea></p>
+
+     </form>
+  </body>
+</html>
