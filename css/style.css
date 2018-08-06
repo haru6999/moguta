@@ -14,16 +14,18 @@ header{
 .homeP{
   line-height: 70px;
   text-align: center;
+  font-size: 25px;
 }
 
 .homeRight{
   right: 2%;
-  top:50%
+  top:20px;
+  position:fixed;
 }
 
 .createLeft{
   float:left;
-  width: 25%;
+  width: 20%;
   line-height: 70px;
   text-align: center;
   font-size: 15px;
@@ -31,14 +33,14 @@ header{
 
 .createCenter{
   float:left;
-  width: 50%;
+  width: 60%;
   line-height: 70px;
   text-align: center;
   font-size: 25px;
 }
 .createRight{
   float:right;
-  width: 25%;
+  width: 20%;
   line-height: 70px;
   text-align: center;
   font-size: 15px;
@@ -56,6 +58,23 @@ header{
   border-bottom: 1px solid #f2f2f2;
 }
 
+.create table{
+  border-collapse: collapse;
+}
+
+.create table th{
+  border: solid 1px black;
+  padding:20px 30px;
+}
+
+.create table td{
+  border: solid 1px black;
+  padding:20px 30px;
+}
+
+.radio02{
+  height: 50px;
+}
 .radio02-input{
   display: none;
 }
@@ -106,33 +125,57 @@ header{
 }
 
 .create p{
-  padding:8px 15px 10px 15px;
+  padding:10px 15px 18px 15px;
   border: 1px solid #f2f2f2;
 }
 
 .create label{
-
 }
 .create input{
   width: 100%;
+  height:30px;
+  margin-top:8px;
   border: 1px solid #f2f2f2;
 }
 
 .createImage{
   width: 80px;
   height: 80px;
+  margin-top:8px;
 }
 
 .create textarea{
   width: 100%;
   height: 60px;
   border: 1px solid #f2f2f2;
+  margin-top:8px;
 }
 
 .create i{
   width: 32px;
   height: 32px;
 }
+
+.searches{
+  display: flex;
+  border-bottom: 1px solid #f2f2f2;
+}
+
+.search p{
+  padding:5px 5px 5px 0px;
+}
+
+.search img{
+  width: 100px;
+  height: 100px;
+}
+
+.search i{
+  font-size: 1.5em;
+}
+
+.item1 { flex-basis: 40%; }
+.item2 { flex-basis: 60%; }
 
 footer{
   height:40px;
@@ -144,10 +187,12 @@ footer{
 }
 
 footer p{
-  float:left;
   line-height: 40px;
+  text-align: center;
 }
 
 footer i{
-  float:right;
+  right: 2%;
+  bottom:4px;
+  position:fixed;
 }
